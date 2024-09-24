@@ -1,0 +1,143 @@
+
+.zoom2 {
+    transition: transform .2s;
+}
+
+.zoom2:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    width: 700px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0,0,10,0.7),rgba(0,0,10,0.7));    
+}
+
+.content h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 10px;
+}
+
+.content ul{
+    list-style: none;
+}
+
+.container_sch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container_sch #sidebar{
+    grid-column-start: 6;
+}
+
+.container_sch .content{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+fieldset{
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content #med{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url(https://images.pexels.com/photos/8539653/pexels-photo-8539653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: #12171e;
+}
+.content #comp{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url(https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.content #bio{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url(https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: #12171e;
+}
+
+.content #fiz{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)), url(https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+}
+
+.content #art{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)), url(https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+}
+
+.content #arh{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)), url(https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: #12171e;
+}
+
+.content #mat{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)), url("https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+}
+
+.content #fiz2{
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+}
+
+.content #chem{
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.content #en{
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+
+.content #his {
+    background-position: center;
+    background-image:  linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/161863/edinburgh-carlton-hill-landscape-scotland-161863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.content #lit{
+    background-position: center;
+    background-image:  linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.content #gen1, #gen2, #gen3, #gen4, #gen5, #gen6{
+    background-position: center;
+    width: 600px;
+    background-image:  linear-gradient(rgba(0,0,10,0.3),rgba(0,0,10,0.3)),url("https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
