@@ -1,5 +1,6 @@
 # KursaDarbs.github.io
-Nobeiguma projekts kursā par web-izstrādi (bibliotēkas mājaslapa).
+Nobeiguma projekts kursā par web-izstrādi (bibliotēkas mājaslapa).<br>
+https://lijatureca.github.io/KursaDarbs.github.io/
 
 ![image](https://github.com/user-attachments/assets/8fe0a7e5-a64e-4e2b-b095-30331b961664)
 
